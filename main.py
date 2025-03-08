@@ -70,19 +70,16 @@ elif page == "💡 Skills":
 
 elif page == "📄 Resume":
     st.header("📄 View & Download My Resume")
-    
-    # Display PDF directly in Streamlit
-    def display_pdf(file_path):
-        with open(file_path, "rb") as f:
-            base64_pdf = base64.b64encode(f.read()).decode("utf-8")
-            pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="600px"></iframe>'
-            st.markdown(pdf_display, unsafe_allow_html=True)
-    
-    display_pdf("JAYASURYA_PS_Resume.pdf")
-    
-    # Provide download option
-    with open("JAYASURYA_PS_Resume.pdf", "rb") as file:
-        st.download_button(label="📥 Download Resume", data=file, file_name="JAYASURYA_PS_Resume.pdf", mime="application/pdf", help="Click to download my resume.")
+
+    # Google Drive Direct Link (Replace with your actual direct link)
+    resume_url = "https://drive.google.com/uc?export=view&id=https://drive.google.com/file/d/1fa2HqwrHx2h-ILYAXj_6ySb3lUchCENq/view?usp=sharing"
+
+    # Display PDF in Streamlit
+    st.markdown(f'<iframe src="{resume_url}" width="100%" height="600px"></iframe>', unsafe_allow_html=True)
+
+    # Provide a download link
+    download_url = f"https://drive.google.com/uc?export=download&id=https://drive.google.com/file/d/1fa2HqwrHx2h-ILYAXj_6ySb3lUchCENq/view?usp=sharing"
+    st.markdown(f'<a href="{download_url}" download><button>📥 Download Resume</button></a>', unsafe_allow_html=True)
 
 elif page == "🚀 Projects":
     st.header("🚀 Projects")
