@@ -62,11 +62,28 @@ if page == "🏠 Home":
     Passionate about leveraging AI, cloud computing, and data-driven insights to solve real-world problems.
     """)
 
-elif page == "💡 Skills":
-    st.header("💡 Skills")
-    skills = ["☁️ Cloud Computing", "🐍 Python", "📊 Machine Learning", "🤖 Deep Learning", "☁️ AWS", "🖥️ Streamlit", "📂 FAISS"]
-    for skill in skills:
-        st.markdown(f"✅ {skill}")
+elif page == "💡 Technical Skills":
+    st.header("💡Technical Skills")
+
+    st.write("### 💻 Programming Languages & Databases")
+    st.write("- 🐍 **Python:** NumPy, Pandas, Matplotlib, Scikit-Learn")
+    st.write("- 🗄️ **SQL**")
+
+    st.write("### 🤖 Machine Learning & AI")
+    st.write("- ML Algorithms, LLMs")
+
+    st.write("### 📊 Data Visualization Tools")
+    st.write("- **Advanced Excel**,  **Microsoft Power BI**,  **Google Looker Studio**")
+
+    st.write("### ☁️ AWS Cloud Services")
+    st.write("- **EC2**, **S3**, **IAM**, **Route53**")
+    st.write("- **RDS**, **VPC**, **CloudWatch**, **DynamoDB**, **Lambda**, **ELB**")
+
+    st.write("### 🛠️ Other Technical Skills")
+    st.write("- **Web Scraping:** Beautiful Soup")
+    st.write("- **Networking (Basics)**")
+
+
 
 elif page == "📄 Resume":
     st.header("📄 View & Download My Resume")
