@@ -62,7 +62,7 @@ if page == "🏠 Home":
     Passionate about leveraging AI, cloud computing, and data-driven insights to solve real-world problems.
     """)
 
-elif page == "💡 Technical Skills":
+elif page == "💡 Skills":
     st.header("💡Technical Skills")
 
     st.write("### 💻 Programming Languages & Databases")
