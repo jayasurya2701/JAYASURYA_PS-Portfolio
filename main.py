@@ -104,7 +104,7 @@ elif page == "📞 Contact":
     st.write("📧 Email: [suryapazhani27@gmail.com](mailto:suryapazhani27@gmail.com)")
     st.write("📞 Mobile: [+91 7604805128](tel:+917604805128)")
     st.write("🔗 LinkedIn: [linkedin.com/in/jayasuryaps](https://www.linkedin.com/in/jayasuryaps)")
-    st.write("🐙 GitHub: [github.com/jayasurya2701](https://github.com/jayasurya2701?tab=repositories)")
+    #st.write("🐙 GitHub: [github.com/jayasurya2701](https://github.com/jayasurya2701?tab=repositories)")
     
     st.markdown("""
     <div style="text-align: center;">
