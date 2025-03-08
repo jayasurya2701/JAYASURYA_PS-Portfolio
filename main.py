@@ -71,14 +71,17 @@ elif page == "💡 Skills":
 elif page == "📄 Resume":
     st.header("📄 View & Download My Resume")
 
-    # Google Drive Direct Link (Replace with your actual direct link)
-    resume_url = "https://drive.google.com/uc?export=view&id=https://drive.google.com/file/d/1fa2HqwrHx2h-ILYAXj_6ySb3lUchCENq/view?usp=sharing"
+    # Google Drive File ID (Extract from your link)
+    file_id = "1fa2HqwrHx2h-ILYAXj_6ySb3lUchCENq"
+
+    # Correct Google Drive URLs
+    resume_url = f"https://drive.google.com/uc?export=view&id={file_id}"
+    download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
 
     # Display PDF in Streamlit
     st.markdown(f'<iframe src="{resume_url}" width="100%" height="600px"></iframe>', unsafe_allow_html=True)
 
     # Provide a download link
-    download_url = f"https://drive.google.com/uc?export=download&id=https://drive.google.com/file/d/1fa2HqwrHx2h-ILYAXj_6ySb3lUchCENq/view?usp=sharing"
     st.markdown(f'<a href="{download_url}" download><button>📥 Download Resume</button></a>', unsafe_allow_html=True)
 
 elif page == "🚀 Projects":
