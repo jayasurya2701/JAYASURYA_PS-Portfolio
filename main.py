@@ -70,11 +70,19 @@ elif page == "💡 Skills":
 
 elif page == "📄 Resume":
     st.header("📄 View & Download My Resume")
-    with open("JAYASURYA_PS_Resume.pdf", "rb") as file:
-        st.download_button(label="📥 Download Resume", data=file, file_name="JAYASURYA_PS_Resume.pdf", mime="application/pdf", help="Click to download my resume.")
-    st.markdown("""---""")
-    st.header("📄 Resume Preview")
-    st.components.v1.iframe("JAYASURYA_RESUME.pdf", height=600)
+
+    # Google Drive File ID (Extract from your link)
+    file_id = "1fa2HqwrHx2h-ILYAXj_6ySb3lUchCENq"
+
+    # Correct Google Drive Embed & Download URLs
+    embed_url = f"https://drive.google.com/file/d/{file_id}/preview"
+    download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
+
+    # Display PDF in Streamlit using iframe
+    st.markdown(f'<iframe src="{embed_url}" width="100%" height="600px"></iframe>', unsafe_allow_html=True)
+
+    # Provide a download link
+    st.markdown(f'<a href="{download_url}" target="_blank"><button>📥 Download Resume</button></a>', unsafe_allow_html=True)
 
 elif page == "🚀 Projects":
     st.header("🚀 Projects")
