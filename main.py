@@ -53,10 +53,10 @@ st.sidebar.title("🔗 Navigation")
 page = st.sidebar.radio("Go to", ["🏠 Home", "💡 Skills", "🏢 Professional Experience", "🚀 Projects", "📄 Resume", "📞 Contact"])
 
 if page == "🏠 Home":
-   # Centering Image in Streamlit
-col1, col2, col3 = st.columns([1, 2, 1])  # Creates 3 columns (middle column is bigger)
-with col2:  
-    st.image("profile.jpg", width=200, caption="JAYASURYA PS")  # Image in the center
+    # Centering Image in Streamlit
+    col1, col2, col3 = st.columns([1, 2, 1])  # Creates 3 columns (middle column is bigger)
+    with col2:  
+        st.image("profile.jpg", width=200, caption="JAYASURYA PS")  # Image in the center
 
     # Centering the title and subheader
     st.markdown("<h1 style='text-align: center;'>JAYASURYA PS</h1>", unsafe_allow_html=True)
@@ -72,6 +72,7 @@ with col2:
 
     📩 **Open to collaborations and exciting opportunities**—let’s connect!
     """)
+
 
 
 elif page == "💡 Skills":
