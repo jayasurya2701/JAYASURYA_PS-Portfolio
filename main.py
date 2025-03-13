@@ -54,7 +54,7 @@ page = st.sidebar.radio("Go to", ["🏠 Home", "💡 Skills", "🏢 Professional
 
 if page == "🏠 Home":
     # Centering Image in Streamlit
-    col1, col2, col3 = st.columns([3, 7, 5])  # Creates 3 columns (middle column is bigger)
+    col1, col2, col3 = st.columns([7, 7, 3])  # Creates 3 columns (middle column is bigger)
     with col2:  
         st.image("profile.jpg", width=200, )  # Image in the center
 
