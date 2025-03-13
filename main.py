@@ -76,25 +76,27 @@ if page == "🏠 Home":
 
 
 elif page == "💡 Skills":
-    st.header("💡Technical Skills")
+    st.header("💡 Technical Skills")
 
-    st.write("### 💻 Programming Languages & Databases")
+    st.write("### 💻 Programming & Databases")
     st.write("- **Python:** NumPy, Pandas, Matplotlib, Scikit-Learn, Streamlit")
-    st.write("- **SQL**")
+    st.write("- **SQL:** Query Optimization, Joins, Indexing")
 
     st.write("### 🤖 Machine Learning & AI")
-    st.write("- ML Algorithms, LLMs")
+    st.write("- **ML Algorithms:** Supervised & Unsupervised Learning")
+    st.write("- **Large Language Models (LLMs), NLP**")
+    st.write("- **Model Deployment:** Streamlit")
 
-    st.write("### 📊 Data Visualization Tools")
-    st.write("- **Advanced Excel**,  **Microsoft Power BI**,  **Google Looker Studio**")
+    st.write("### 📊 Data Visualization & Analytics")
+    st.write("- **Microsoft Power BI**, **Google Looker Studio**, **Advanced Excel**")
 
     st.write("### ☁️ AWS Cloud Services")
-    st.write("- **EC2**, **S3**, **IAM**, **Route53**")
-    st.write("- **RDS**, **VPC**, **CloudWatch**, **DynamoDB**, **Lambda**, **ELB**")
+    st.write("- **Compute & Storage:** EC2, S3, Lambda")
+    st.write("- **Networking & Security:** IAM, VPC, Route53, ELB")
+    st.write("- **Databases & Monitoring:** RDS, DynamoDB, CloudWatch")
 
     st.write("### 🛠️ Other Technical Skills")
-    st.write("- **Web Scraping:** Beautiful Soup")
-    st.write("- **Networking (Basics)**")
+    st.write("- **Web Scraping:** Beautiful Soup, Selenium")
 
 elif page == "🏢 Professional Experience":
     st.header("🏢 Professional Experience")
