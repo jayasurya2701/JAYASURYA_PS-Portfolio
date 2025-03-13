@@ -57,13 +57,14 @@ if page == "🏠 Home":
     st.title("JAYASURYA PS")
     st.subheader("AI & Cloud Visionary | B.Tech - AI & Data Science | AWS Certified | Innovation Seeker & Problem-Solver")
     st.write("""
-    🔍 Passionate about leveraging AI, cloud computing, and data-driven insights to build innovative solutions for real-world challenges. With a strong foundation in Artificial Intelligence, Cloud Technologies, and Data Science, I thrive on solving complex problems and optimizing business outcomes with cutting-edge technology.
+    🔍 Passionate about solving real-world problems with intelligent systems, automation, and scalable cloud solutions.
 
-💡 Always seeking opportunities to push boundaries, explore new innovations, and create impact through AI & Cloud-driven solutions.
+✨ Always learning, experimenting, and pushing boundaries to create meaningful impact.
 
-📌 Specialties: AI & ML | Cloud Computing | Data Science | Problem-Solving | Innovation | Scalable Solutions
+📌 Strengths: AI & ML | Cloud Computing | Data Science | Problem-Solving | Innovation
 
-📩 Let's connect and create something incredible!
+📩 Open to collaborations and exciting opportunities—let’s connect!
+
     """)
 
 elif page == "💡 Skills":
