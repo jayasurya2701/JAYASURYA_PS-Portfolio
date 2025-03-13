@@ -53,19 +53,31 @@ st.sidebar.title("🔗 Navigation")
 page = st.sidebar.radio("Go to", ["🏠 Home", "💡 Skills", "🏢 Professional Experience", "🚀 Projects", "📄 Resume", "📞 Contact"])
 
 if page == "🏠 Home":
-    st.image("profile.jpg", width=200, caption="JAYASURYA PS")
-    st.title("JAYASURYA PS")" 
-    st.subheader("AI & Cloud Visionary | B.Tech - AI & Data Science | AWS Certified | Innovation Seeker & Problem-Solver")
+    # Centering the profile image
+    st.markdown(
+        """
+        <div style="display: flex; justify-content: center;">
+            <img src="profile.jpg" width="200" style="border-radius: 50%;" alt="JAYASURYA PS">
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Centering the title and subheader
+    st.markdown("<h1 style='text-align: center;'>JAYASURYA PS</h1>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>AI & Cloud Visionary | B.Tech - AI & Data Science | AWS Certified | Innovation Seeker & Problem-Solver</h3>", unsafe_allow_html=True)
+
+    # About section with better formatting
     st.write("""
-    🔍 Passionate about solving real-world problems with intelligent systems, automation, and scalable cloud solutions.
+    🔍 **Passionate about solving real-world problems** with intelligent systems, automation, and scalable cloud solutions.
 
-✨ Always learning, experimenting, and pushing boundaries to create meaningful impact.
+    ✨ **Always learning, experimenting, and pushing boundaries** to create meaningful impact.
 
-📌 Strengths: AI & ML | Cloud Computing | Data Science | Problem-Solving | Innovation
+    📌 **Strengths:** AI & ML | Cloud Computing | Data Science | Problem-Solving | Innovation
 
-📩 Open to collaborations and exciting opportunities—let’s connect!
-
+    📩 **Open to collaborations and exciting opportunities**—let’s connect!
     """)
+
 
 elif page == "💡 Skills":
     st.header("💡Technical Skills")
