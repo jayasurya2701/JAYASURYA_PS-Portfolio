@@ -79,7 +79,7 @@ elif page == "💡 Skills":
     st.header("💡Technical Skills")
 
     st.write("### 💻 Programming Languages & Databases")
-    st.write("- **Python:** NumPy, Pandas, Matplotlib, Scikit-Learn")
+    st.write("- **Python:** NumPy, Pandas, Matplotlib, Scikit-Learn, Streamlit")
     st.write("- **SQL**")
 
     st.write("### 🤖 Machine Learning & AI")
