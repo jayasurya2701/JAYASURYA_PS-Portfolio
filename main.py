@@ -53,15 +53,10 @@ st.sidebar.title("🔗 Navigation")
 page = st.sidebar.radio("Go to", ["🏠 Home", "💡 Skills", "🏢 Professional Experience", "🚀 Projects", "📄 Resume", "📞 Contact"])
 
 if page == "🏠 Home":
-    # Centering the profile image
-    st.markdown(
-        """
-        <div style="display: flex; justify-content: center;">
-            <img src="profile.jpg" width="200" style="border-radius: 50%;" alt="JAYASURYA PS">
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+   # Centering Image in Streamlit
+col1, col2, col3 = st.columns([1, 2, 1])  # Creates 3 columns (middle column is bigger)
+with col2:  
+    st.image("profile.jpg", width=200, caption="JAYASURYA PS")  # Image in the center
 
     # Centering the title and subheader
     st.markdown("<h1 style='text-align: center;'>JAYASURYA PS</h1>", unsafe_allow_html=True)
