@@ -50,16 +50,20 @@ st.markdown("""
 
 # Sidebar Navigation
 st.sidebar.title("🔗 Navigation")
-page = st.sidebar.radio("Go to", ["🏠 Home", "💡 Skills", "📄 Resume", "🚀 Projects", "📞 Contact"])
+page = st.sidebar.radio("Go to", ["🏠 Home", "💡 Skills", "🏢 Professional Experience", "🚀 Projects", "📄 Resume", "📞 Contact"])
 
 if page == "🏠 Home":
     st.image("profile.jpg", width=200, caption="JAYASURYA PS")
     st.title("JAYASURYA PS")
-    st.subheader("AI & Cloud Visionary | B.Tech - AI & Data Science | AWS Certified | Innovation Seeker")
+    st.subheader("AI & Cloud Visionary | B.Tech - AI & Data Science | AWS Certified | Innovation Seeker & Problem-Solver")
     st.write("""
-    🚀 AI & Cloud Enthusiast | Data Science Innovator | AWS Certified | Problem-Solver
-    
-    Passionate about leveraging AI, cloud computing, and data-driven insights to solve real-world problems.
+    🔍 Passionate about leveraging AI, cloud computing, and data-driven insights to build innovative solutions for real-world challenges. With a strong foundation in Artificial Intelligence, Cloud Technologies, and Data Science, I thrive on solving complex problems and optimizing business outcomes with cutting-edge technology.
+
+💡 Always seeking opportunities to push boundaries, explore new innovations, and create impact through AI & Cloud-driven solutions.
+
+📌 Specialties: AI & ML | Cloud Computing | Data Science | Problem-Solving | Innovation | Scalable Solutions
+
+📩 Let's connect and create something incredible!
     """)
 
 elif page == "💡 Skills":
@@ -83,7 +87,27 @@ elif page == "💡 Skills":
     st.write("- **Web Scraping:** Beautiful Soup")
     st.write("- **Networking (Basics)**")
 
+elif page == "🏢 Professional Experience":
+    st.header("🏢 Professional Experience")
 
+    st.subheader("AWS re/Start Technical Internship | Magic Bus India Foundation (Dec 2024 - Feb 2025)")
+    st.write("🚀 Designed and implemented CI/CD pipelines using AWS services, improving deployment speed by **40%**.")
+    st.write("⚡ Automated software deployment with **EC2, S3, CodeDeploy, and CloudWatch**, reducing manual effort and downtime.")
+
+    st.subheader("🤖 AI Intern | Infosys Springboard (Dec 2024 - Jan 2025)")
+    st.write("📊 Developed machine learning models to analyze customer behavior, achieving a **20%** improvement in predictive accuracy.")
+    st.write("⚙️ Automated data preprocessing pipelines using **Python and SQL**, reducing data preparation time by **35%**.")
+
+    st.subheader("🤝 AI Intern | Bridge Green Upcycle (June 2024 - August 2024)")
+    st.write("💬 Developed a chatbot using AI for vendor communication, boosting scrap battery collection by **15%**.")
+    st.write("⚡ Optimized user interaction workflows, improving response times and increasing vendor satisfaction by **20%**.")
+
+    st.subheader("📑 Public Policy Analyst | PhospheneAI (Feb 2024 - Jun 2024)")
+    st.write("📊 Performed data-driven policy research using **NLP**, analyzing trends across legislative frameworks.")
+    st.write("🌍 Delivered insights that enhanced stakeholder engagement by **20%**.")
+
+    st.subheader("📊 Data Analyst | Redink Classroom (Aug 2023 - Oct 2023)")
+    st.write("📈 Conducted data wrangling and visualization using **Power BI and SQL**, increasing reporting efficiency by **50%**.")
 
 elif page == "📄 Resume":
     st.header("📄 View & Download My Resume")
