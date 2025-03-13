@@ -53,8 +53,17 @@ st.sidebar.title("🔗 Navigation")
 page = st.sidebar.radio("Go to", ["🏠 Home", "💡 Skills", "🏢 Professional Experience", "🚀 Projects", "📄 Resume", "📞 Contact"])
 
 if page == "🏠 Home":
-    st.image("profile.jpg", width=200, caption="JAYASURYA PS")
-    st.title("JAYASURYA PS")
+    st.markdown(
+        """
+        <div style="display: flex; justify-content: center;">
+            <img src="profile.jpg" width="200" style="border-radius: 50%;" alt="JAYASURYA PS">
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown("<h1 style='text-align: center;'>JAYASURYA PS</h1>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>AI & Cloud Visionary | B.Tech - AI & Data Science | AWS Certified | Innovation Seeker</h3>", unsafe_allow_html=True)
     st.subheader("AI & Cloud Visionary | B.Tech - AI & Data Science | AWS Certified | Innovation Seeker & Problem-Solver")
     st.write("""
     🔍 Passionate about solving real-world problems with intelligent systems, automation, and scalable cloud solutions.
