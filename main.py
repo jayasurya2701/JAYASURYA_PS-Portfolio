@@ -101,24 +101,25 @@ elif page == "💡 Skills":
 elif page == "🏢 Professional Experience":
     st.header("🏢 Professional Experience")
 
-    st.subheader("AWS re/Start Technical Internship | Magic Bus India Foundation (Dec 2024 - Feb 2025)")
-    st.write("🚀 Designed and implemented CI/CD pipelines using AWS services, improving deployment speed by **40%**.")
-    st.write("⚡ Automated software deployment with **EC2, S3, CodeDeploy, and CloudWatch**, reducing manual effort and downtime.")
+    st.subheader("AWS re/Start Technical Intern | Magic Bus India Foundation (Dec 2024 - Feb 2025)")
+    st.write("- **Designed and implemented CI/CD pipelines** using **AWS CodePipeline, CodeBuild, and CodeDeploy**, improving deployment speed by **40%**.")
+    st.write("- **Automated software deployment** with **EC2, S3, IAM, CloudWatch**, reducing manual effort and downtime.")
 
-    st.subheader("🤖 AI Intern | Infosys Springboard (Dec 2024 - Jan 2025)")
-    st.write("📊 Developed machine learning models to analyze customer behavior, achieving a **20%** improvement in predictive accuracy.")
-    st.write("⚙️ Automated data preprocessing pipelines using **Python and SQL**, reducing data preparation time by **35%**.")
+    st.subheader("AI Intern | Infosys Springboard (Dec 2024 - Jan 2025)")
+    st.write("- **Implemented an AI-driven personalization system leveraging LLMs (OpenAI GPT) for real-time sentiment analysis, boosting guest satisfaction by 25% through personalized service recommendations.")
+    st.write("- **Enhanced data integration from mock CRM systems, improving guest preference analysis accuracy by **30%** and speeding up service response times by **35%**.")
 
-    st.subheader("🤝 AI Intern | Bridge Green Upcycle (June 2024 - August 2024)")
-    st.write("💬 Developed a chatbot using AI for vendor communication, boosting scrap battery collection by **15%**.")
-    st.write("⚡ Optimized user interaction workflows, improving response times and increasing vendor satisfaction by **20%**.")
+    st.subheader("AI Intern | Bridge Green Upcycle (June 2024 - Aug 2024)")
+    st.write("- **Developed an AI-powered chatbot** for vendor communication using **NLTK, Dialogflow**, boosting scrap battery collection by **15%**.")
+    st.write("- **Optimized user interaction workflows**, improving response times and increasing vendor satisfaction by **20%**.")
 
-    st.subheader("📑 Public Policy Analyst | PhospheneAI (Feb 2024 - Jun 2024)")
-    st.write("📊 Performed data-driven policy research using **NLP**, analyzing trends across legislative frameworks.")
-    st.write("🌍 Delivered insights that enhanced stakeholder engagement by **20%**.")
+    st.subheader("Public Policy Analyst | PhospheneAI (Feb 2024 - Jun 2024)")
+    st.write("- **Performed NLP-based policy analysis** using **spaCy, NLTK, and Python**, identifying trends across regulatory frameworks.")
+    st.write("- **Provided data-driven insights**, leading to a **20% improvement** in stakeholder engagement.")
 
-    st.subheader("📊 Data Analyst | Redink Classroom (Aug 2023 - Oct 2023)")
-    st.write("📈 Conducted data wrangling and visualization using **Power BI and SQL**, increasing reporting efficiency by **50%**.")
+    st.subheader("Data Analyst | Redink Classroom (Aug 2023 - Oct 2023)")
+    st.write("- **Conducted data wrangling and visualization** using **Power BI, SQL, and Pandas**, improving reporting efficiency by **50%**.")
+    st.write("- **Designed interactive dashboards**, providing real-time insights for business decisions.")
 
 elif page == "📄 Resume":
     st.header("📄 View & Download My Resume")
