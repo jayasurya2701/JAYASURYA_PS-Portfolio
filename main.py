@@ -114,7 +114,7 @@ elif page == "🏢 Professional Experience":
     st.write("- **Optimized user interaction workflows**, improving response times and increasing vendor satisfaction by **20%**.")
 
     st.subheader("Public Policy Analyst | PhospheneAI (Feb 2024 - Jun 2024)")
-    st.write("- **Performed data-driven policy research ** using **WebScraping**, identifying trends across regulatory frameworks.")
+    st.write("- **Performed data-driven policy research** using **WebScraping**, identifying trends across regulatory frameworks.")
     st.write("- **Provided data-driven insights**, leading to a **20% improvement** in stakeholder engagement.")
 
     st.subheader("Data Analyst | Redink Classroom (Aug 2023 - Oct 2023)")
