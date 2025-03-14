@@ -125,7 +125,7 @@ elif page == "📄 Resume":
     st.header("📄 View & Download My Resume")
 
     # Google Drive File ID (Extract from your link)
-    file_id = "1paPH72eLRE8A842bWw1wQv0m0DE3"
+    file_id = "1paPH72eLRE8A842bWw1wQv0m0DE3Iway"
 
     # Correct Google Drive Embed & Download URLs
     embed_url = f"https://drive.google.com/file/d/{file_id}/preview"
