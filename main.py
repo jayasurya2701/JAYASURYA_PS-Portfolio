@@ -80,7 +80,7 @@ elif page == "💡 Skills":
 
     st.write("### 💻 Programming & Databases")
     st.write("- **Python:** NumPy, Pandas, Matplotlib, Scikit-Learn, Streamlit")
-    st.write("- **SQL:** ")
+    st.write("- **SQL** ")
 
     st.write("### 🤖 Machine Learning & AI")
     st.write("- **ML Algorithms:** Supervised & Unsupervised Learning")
