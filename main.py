@@ -106,8 +106,8 @@ elif page == "🏢 Professional Experience":
     st.write("- **Automated software deployment** with **EC2, S3, IAM, CloudWatch**, reducing manual effort and downtime.")
 
     st.subheader("AI Intern | Infosys Springboard (Dec 2024 - Jan 2025)")
-    st.write("- **Implemented an AI-driven personalization system leveraging LLMs (OpenAI GPT) for real-time sentiment analysis, boosting guest satisfaction by 25% through personalized service recommendations.")
-    st.write("- **Enhanced data integration from mock CRM systems, improving guest preference analysis accuracy by **30%** and speeding up service response times by **35%**.")
+    st.write("- **Implemented an AI-driven personalization system** leveraging **LLMs (OpenAI GPT,Meta Llama)** for real-time sentiment analysis, boosting guest satisfaction by 25% through personalized service recommendations.")
+    st.write("- **Enhanced data integration from mock CRM systems**, improving guest preference analysis accuracy by **30%** and speeding up service response times by **35%**.")
 
     st.subheader("AI Intern | Bridge Green Upcycle (June 2024 - Aug 2024)")
     st.write("- **Developed an AI-powered chatbot** for vendor communication using **NLTK, Dialogflow**, boosting scrap battery collection by **15%**.")
