@@ -80,7 +80,7 @@ elif page == "💡 Skills":
 
     st.write("### 💻 Programming & Databases")
     st.write("- **Python:** NumPy, Pandas, Matplotlib, Scikit-Learn, Streamlit")
-    st.write("- **SQL:** Query Optimization, Joins, Indexing")
+    st.write("- **SQL:** ")
 
     st.write("### 🤖 Machine Learning & AI")
     st.write("- **ML Algorithms:** Supervised & Unsupervised Learning")
@@ -96,7 +96,7 @@ elif page == "💡 Skills":
     st.write("- **Databases & Monitoring:** RDS, DynamoDB, CloudWatch")
 
     st.write("### 🛠️ Other Technical Skills")
-    st.write("- **Web Scraping:** Beautiful Soup, Selenium")
+    st.write("- **Web Scraping:** Beautiful Soup")
 
 elif page == "🏢 Professional Experience":
     st.header("🏢 Professional Experience")
@@ -110,22 +110,22 @@ elif page == "🏢 Professional Experience":
     st.write("- **Enhanced data integration from mock CRM systems**, improving guest preference analysis accuracy by **30%** and speeding up service response times by **35%**.")
 
     st.subheader("AI Intern | Bridge Green Upcycle (June 2024 - Aug 2024)")
-    st.write("- **Developed an AI-powered chatbot** for vendor communication using **NLTK, Dialogflow**, boosting scrap battery collection by **15%**.")
+    st.write("- **Developed an intent based chatbot** for vendor communication using **Machine Learing, NLP**, boosting scrap battery collection by **15%**.")
     st.write("- **Optimized user interaction workflows**, improving response times and increasing vendor satisfaction by **20%**.")
 
     st.subheader("Public Policy Analyst | PhospheneAI (Feb 2024 - Jun 2024)")
-    st.write("- **Performed NLP-based policy analysis** using **spaCy, NLTK, and Python**, identifying trends across regulatory frameworks.")
+    st.write("- **Performed data-driven policy research ** using **WebScraping**, identifying trends across regulatory frameworks.")
     st.write("- **Provided data-driven insights**, leading to a **20% improvement** in stakeholder engagement.")
 
     st.subheader("Data Analyst | Redink Classroom (Aug 2023 - Oct 2023)")
-    st.write("- **Conducted data wrangling and visualization** using **Power BI, SQL, and Pandas**, improving reporting efficiency by **50%**.")
+    st.write("- **Conducted data wrangling and visualization** using **Power BI and SQL**, improving reporting efficiency by **50%**.")
     st.write("- **Designed interactive dashboards**, providing real-time insights for business decisions.")
 
 elif page == "📄 Resume":
     st.header("📄 View & Download My Resume")
 
     # Google Drive File ID (Extract from your link)
-    file_id = "13cmOhIH0klUQ5XgkX1--Lb5nmLjfuE02"
+    file_id = "1paPH72eLRE8A842bWw1wQv0m0DE3"
 
     # Correct Google Drive Embed & Download URLs
     embed_url = f"https://drive.google.com/file/d/{file_id}/preview"
